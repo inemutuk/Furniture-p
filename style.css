@@ -1,0 +1,619 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+   font-family: 'Poppins', sans-serif; 
+   list-style: none;
+}
+
+
+
+header{
+  display: flex;
+  flex-direction: row;
+border: none;
+  position: relative;
+    width: 100%;
+  /* min-height: auto; */
+  align-items: center;
+  overflow: hidden;
+  border: none;
+  padding-bottom: 0px;
+
+}
+
+header ul{
+  position: absolute;
+  top: 20%;
+  display: flex;
+  left: 3%;
+ 
+
+  
+}
+
+header ul li{
+  /* margin-right: 1rem; */
+  margin-left : 1rem;
+  color: #fff;
+  font-size:  1.5rem;
+  line-height: 30px;
+
+}
+
+ul li.box1{
+  margin-right: 2rem;
+  font-size: 1.6rem;
+  margin-left: 12px ;
+}
+
+
+
+.banner-right{
+background-color: hsl(0, 0%, 100%);
+width: 400px;
+margin-top: 2rem;
+margin:  auto;
+}
+
+
+.banner-left{
+  width: 55%;
+   overflow: hidden;
+
+ 
+}
+
+.hero{
+  width: 100%;
+  min-height: auto;
+  object-fit: cover;
+}
+.banner-right h1{
+  font-weight:   900;
+ font-size: 2.2rem;
+ line-height: 2.5rem;
+
+}
+
+
+.banner-right h1 span{
+  display: block;
+  margin-left: 0px;
+}
+
+.banner-right p{
+  margin-top: 1rem;
+  line-height: 1.5rem;
+  font-size:  1.1rem; 
+  width: 490px;
+  opacity: 50%;
+}
+
+.banner-right h2{
+  margin-top: 1rem;
+  font-size: 1.3rem;
+  line-height: 2rem;
+  padding: 0px 20px 0px 0px;
+
+}
+
+.banner-right span{
+  margin-left: 1rem;
+  
+}
+
+.icon{
+font-size: 2.0rem; 
+}
+
+
+/*  SECTION AREA */
+
+
+section{
+  display: flex;
+  flex-direction: row;
+ max-width: 100%;
+ overflow: hidden;
+ margin-top: -20px;
+ height: auto;
+
+}
+
+.main{
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 2rem;
+}
+section .main p{
+  font-size: 1.2rem;
+  width: 530px;
+  padding: 0rem 1.2rem;
+  line-height: 1.6rem;
+  opacity:  50%;
+
+overflow: hidden;
+
+  }
+
+  section .main h1{
+    font-size: 1.2rem;
+    width: 500px;
+    padding: 1rem 2rem;
+    line-height: 1rem;
+    font-weight:  900;
+  
+    }
+
+  .hero1{
+    width: 30%;
+  
+ 
+  }
+
+  .hero2{
+    width: 30%;
+    vertical-align: top;
+  }
+
+
+
+
+  /* MEDIA QUERIES  FOR ALL DEVICES 
+  ************************************************************************/
+
+  @media screen and (max-width: 1078px) {
+
+    header{
+    
+        width: 100%;
+   
+    
+    }
+    
+/* .banner-right{
+  background-color: hsl(0, 0%, 100%);
+  width: 45%;
+  margin-top: 2rem;
+  margin:  auto;
+  } */
+  
+  
+  .banner-left{
+    width: 55%;
+     overflow: hidden;
+  
+   
+  }
+
+  .banner-right{
+    background-color: hsl(0, 0%, 100%);
+    width: 370px;
+    margin-top: 2rem;
+    /* margin:  auto; */
+    }
+
+    .banner-right h1{
+      font-weight:   900;
+     font-size: 2rem;
+     line-height: 2.5rem;
+    
+    }
+    
+    
+    .banner-right h1 span{
+      display: block;
+      margin-left: 0px;
+    }
+
+    .banner-right p{
+      margin-top: 1rem;
+      line-height: 1.5rem;
+      font-size:  1.1rem; 
+      width: 390px;
+      opacity: 50%;
+    }
+
+
+
+    /* SECTION AREA MEDIA QUERIES 
+    ***********************************************************/
+    section{
+    width: 100%;
+    display: flex;
+     justify-content: space-between;
+    
+    
+    }
+
+    .main{
+      width: 33%;
+ 
+    }
+
+    .hero1{
+     width: 30%;
+    }
+
+    .hero2{
+    width: 30%;
+    }
+
+    section .main p{
+      font-size: 1.1rem;
+      width: 400px;
+      padding: 0rem 1.2rem;
+      line-height: 1.6rem;
+      opacity:  50%;
+    
+    overflow: hidden;
+    
+      }
+    
+      section .main h1{
+        font-size: 1.2rem;
+        width: 400px;
+        padding: 1rem 2rem;
+        line-height: 1rem;
+        font-weight:  900;
+      
+        }
+        .banner-right h2{
+          margin-top: 0.5rem;
+          font-size: 1rem;
+          line-height: 0rem;
+          padding: 0px 20px 0px 0px;
+        
+        }
+
+        
+.icon{
+  font-size: 1.7rem; 
+  }
+
+  }
+  
+
+
+  /* MEDIA QUERIES FOR TABLET DEVICE 
+  ************************************************************************/
+
+  @media screen and (max-width: 964px) {
+
+    header{
+    
+        width:  99%;
+   
+    
+    }
+    
+.banner-right{
+  background-color: hsl(0, 0%, 100%);
+  width: 45%;
+  margin-top: 2rem;
+  margin:  auto;
+  }
+  
+  
+  .banner-left{
+    width: 54%;
+     overflow: hidden;
+  
+   
+  }
+
+  .banner-right{
+    background-color: hsl(0, 0%, 100%);
+    width: 340px;
+    margin-top: 2rem;
+    /* margin:  auto; */
+    }
+
+    .banner-right h1{
+      font-weight:   900;
+     font-size: 1.9rem;
+     line-height: 1.7rem;
+    
+    }
+    
+    
+    .banner-right h1 span{
+      display: block;
+      margin-left: 0px;
+    }
+
+    .banner-right p{
+      margin-top: 1rem;
+      line-height: 1.7rem;
+      font-size:  1rem; 
+      width: 350px;
+      opacity: 50%;
+    }
+
+
+
+    /* SECTION AREA MEDIA QUERIES 
+    ***********************************************************/
+    section{
+    width: 100%;
+    display: flex;
+     justify-content: space-between;
+    
+    
+    }
+
+    .main{
+      width: 36%;
+ 
+    }
+
+    .hero1{
+     width: 30%;
+    }
+
+    .hero2{
+    width:  30%;
+    }
+
+    section .main p{
+      font-size: 1rem;
+      width: 350px;
+      padding: 0rem 1rem;
+      line-height: 1.6rem;
+      opacity:  50%;
+    
+    overflow: hidden;
+    
+      }
+    
+      section .main h1{
+        font-size: 1.2rem;
+        width: 350px;
+        padding: 1rem 2rem;
+        line-height: 1rem;
+        font-weight:  900;
+      
+        }
+        .banner-right h2{
+          margin-top: 0.5rem;
+          font-size: 1rem;
+          line-height: 0rem;
+          padding: 0px 20px 0px 0px;
+        
+        }
+        
+.icon{
+  font-size: 1.7rem; 
+  }
+
+  }
+
+  /* MEDIA QUERIES FOR MOBILE DEVICE 
+  ************************************************************************/
+
+  @media screen and (max-width: 935px) {
+
+    header{
+    
+  width:  100%;
+  flex-direction: column;
+  /* min-height: 100vh; */
+
+  
+    }
+    
+.banner-right{
+  background-color: hsl(0, 0%, 100%);
+  width: 100%;
+  /* margin-top: 2rem; */
+  /* margin:  auto; */
+  }
+  
+  
+  .banner-left{
+    width: 100%;
+     overflow: hidden;
+     /* height: 100vh; */
+  
+   
+  }
+
+  .banner-right{
+    background-color: hsl(0, 0%, 100%);
+    max-width:  100%;
+    /* padding-top: 2rem; */
+    /* margin:  auto; */
+  
+    }
+        
+    .banner-right h1 span{
+      display:  inline-block;
+     
+    }
+
+    .banner-right h1{
+      font-weight:   900;
+     font-size: 2rem;
+     /* line-height: 2rem; */
+    
+    }
+    
+
+    .banner-right p{
+      /* margin-top: 1rem; */
+      line-height: 1.5rem;
+      font-size:  1rem; 
+      width: 100%;
+      opacity: 50%;
+    }
+
+
+
+    /* SECTION AREA MEDIA QUERIES 
+    ***********************************************************/
+    section{
+    width: 100%;
+    flex-direction: column;
+    /* min-height: 100vh; */
+    
+    
+    }
+
+    .main{
+      width:  100%;
+ 
+    }
+
+    .hero1{
+     width: 100%;
+    }
+
+    .hero2{
+    width:  100%;
+    }
+
+    section .main p{
+      font-size: 1rem;
+      width:  100%;
+      /* padding: 0rem 1rem; */
+      line-height: 1.6rem;
+      opacity:  50%;
+/*     
+      overflow: hidden; */
+    
+      }
+    
+      section .main h1{
+        font-size: 1.2rem;
+        width:  100%;
+        font-weight:  900;
+      
+        }
+        .banner-right h2{
+          /* margin-top: 0.5rem; */
+          font-size: 1.3rem;
+        
+         
+        
+        }
+
+        
+.icon{
+  font-size: 1.7rem; 
+  }
+
+  }
+
+  @media screen and (max-width : 600px) {
+    header ul{
+      position: absolute;
+      top: 13%;
+      display: flex;
+      left: 2%;
+      
+    }
+    
+    header ul li{
+      /* margin-right: 1rem; */
+      margin-left : 1rem;
+      color: #fff;
+      font-size:  1.4rem;
+      line-height: 30px;
+    
+    }
+    
+    ul li.box1{
+      margin-right: 2rem;
+      font-size: 2rem;
+      margin-left: 10px ;
+    }
+
+    .banner-right h1{
+      font-weight:   900;
+     font-size: 2rem;
+     line-height: 2rem;
+     padding-left: 1rem;
+    
+    }
+    .banner-right p{
+   
+     padding-left: 1rem;
+    
+    }
+    .banner-right h2{
+   
+      padding-left: 1rem;
+     
+     }
+
+  
+     section .main h1{
+     margin-left: -20px;
+    
+      }
+    
+  }
+  
+  @media screen and (max-width :  434px) {
+    header ul{
+      
+      display: none;
+      
+    }
+    
+    header ul li{
+      /* margin-right: 1rem; */
+      margin-left : 1rem;
+      color: #fff;
+      font-size:  1.4rem;
+      line-height: 30px;
+    
+    }
+    
+    ul li.box1{
+      margin-right: 2rem;
+      font-size: 2rem;
+      margin-left: 10px ;
+    }
+
+    .banner-right h1{
+      font-weight:   900;
+     font-size: 2rem;
+     line-height: 2rem;
+     padding-left: 1rem;
+    
+    }
+    .banner-right p{
+   
+     padding-left: 1rem;
+    
+    }
+    .banner-right h2{
+   
+      padding-left: 1rem;
+     
+     }
+
+  
+     section .main h1{
+     margin-left: -20px;
+    
+      }
+    
+  }
+
+
+  @media screen and (max-width : 320px) {
+    header, section{
+        width: 320px;
+    }
+    
+  }
+  
+
+
